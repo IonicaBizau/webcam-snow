@@ -22,7 +22,7 @@ $(document).ready( function() {
     if (!navigator.getUserMedia || !isChrome) {
        $info.html("Unfortunately, this is <strong>not</strong> supported in your browser... <i class='fa fa-meh-o'></i> Please reopen the page in a recent version of <strong>Chrome browser</strong>."); 
     } else {
-       $info.html("Move your right hand in front of the webcam to change the direction of the snow.");
+       $info.html("Move your right hand in the front of the webcam to change the direction of the snow.");
     }
 });
 
