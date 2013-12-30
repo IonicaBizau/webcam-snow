@@ -1,20 +1,42 @@
 $(document).ready( function() {
 
+    var windPower = 0;
+
     // init let it snow
     $("canvas.snow").let_it_snow({
-        windPower: 0,
+        windPower: windPower,
         speed: 1,
         count: 300,
         size: 0,
         interaction: false
     });
 
+    var step = 25;
+
+    var lastWasRight;
+
     // on swipe left
     $("body").on("webcamSwipeLeft", function () {
-        $("canvas.snow").trigger("letItSnow.set", ["windPower", -25]);
+
+        if (lastWasRight) {
+            windPower = -step;
+            lastWasRight = false;
+        } else {
+            windPower -= step;
+        }
+
+        $("canvas.snow").trigger("letItSnow.set", ["windPower", windPower]);
     // on swipe right
     }).on("webcamSwipeRight", function () {
-        $("canvas.snow").trigger("letItSnow.set", ["windPower", 25]);
+
+        if (!lastWasRight) {
+            windPower = step;
+            lastWasRight = true;
+        } else {
+            windPower += step;
+        }
+
+        $("canvas.snow").trigger("letItSnow.set", ["windPower", windPower]);
     });
 
     var $info = $(".info");
