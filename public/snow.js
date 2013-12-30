@@ -7,4 +7,12 @@ $(document).ready( function() {
         size: 0,
         interaction: false
     });
+
+    $("body").on("webcamSwipeLeft", function () {
+
+    }).on("webcamSwipeRight", function () {
+
+    });
 });
+
+window.initializeWebcamSwiper();
