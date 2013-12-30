@@ -9,7 +9,7 @@ var videoElement;
 function initializeWebcamSwiper() {
     if (navigator.getUserMedia === undefined) {
         if (console !== undefined) {
-            console.log("Browser doesn't support getUserMedia");
+            $(".info").html("Browser doesn't support getUserMedia");
             return;
         }
     }
@@ -36,7 +36,7 @@ function initializeWebcamSwiper() {
         // Wait for the video element to initialize
         videoElement.addEventListener("loadeddata", startSwipeRecogntion);
     }, function(err) {
-        console('Something went wrong in getUserMedia');
+        $(".info").html('Something went wrong in getUserMedia');
     });
 }
 
