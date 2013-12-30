@@ -35,3 +35,17 @@ canvas {
     top: 0;
     bottom: 0;
 }
+
+.credits {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.credits a {
+    color: white;
+    text-decoration: none;
+}
