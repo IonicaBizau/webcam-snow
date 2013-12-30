@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #090b44; /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, #410835 0%, #030003 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#410835), color-stop(100%,#030003)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #410835 0%,#030003 100%); /* Chrome10+,Safari5.1+ */
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 80px;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+canvas {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
