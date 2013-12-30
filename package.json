@@ -1,6 +1,6 @@
 {
   "name": "webcam-snow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An application that uses the web camera and the hand movements changing the snow direction in the page. ",
   "main": "index.js",
   "dependencies": {
