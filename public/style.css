@@ -28,6 +28,7 @@ h2 {
     font-weight: 300;
 }
 
+
 canvas {
     position: absolute;
     right: 0;
@@ -45,7 +46,8 @@ canvas {
     font-weight: 400;
 }
 
-.credits a {
+.credits a,
+h2 a {
     color: white;
     text-decoration: none;
 }
