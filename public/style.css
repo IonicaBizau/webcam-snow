@@ -7,6 +7,7 @@ body {
     background: -moz-radial-gradient(center, ellipse cover, #410835 0%, #030003 100%); /* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#410835), color-stop(100%,#030003)); /* Chrome,Safari4+ */
     background: -webkit-radial-gradient(center, ellipse cover, #410835 0%,#030003 100%); /* Chrome10+,Safari5.1+ */
+    text-shadow: 2px 2px 0px black;
     padding: 0;
     text-align: center;
     margin: 0;
