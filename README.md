@@ -5,6 +5,6 @@ An application that uses the web camera and the hand movements changing the snow
 
 [<img src="http://i.imgur.com/PPAWD4r.png" width="100%">](http://ionicabizau.github.io/WebcamSnow)
 
-## Thank to
+## Thanks to
  - https://github.com/iambrandonn/WebcamSwiper
  - https://github.com/peachananr/let_it_snow
