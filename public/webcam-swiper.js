@@ -36,7 +36,7 @@ function initializeWebcamSwiper() {
         // Wait for the video element to initialize
         videoElement.addEventListener("loadeddata", startSwipeRecogntion);
     }, function(err) {
-        $(".info").html('Something went wrong in getUserMedia');
+        $(".info").html('Something went wrong in getUserMedia: ' + err.name);
     });
 }
 
