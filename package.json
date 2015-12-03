@@ -1,6 +1,6 @@
 {
   "name": "webcam-snow",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An application that uses the web camera and the hand movements changing the snow direction in the page. ",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "snow"
   ],
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
-  "license": "KINDLY",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/webcam-snow/issues"
   },
