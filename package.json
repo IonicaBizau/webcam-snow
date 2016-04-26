@@ -1,8 +1,8 @@
 {
   "name": "webcam-snow",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "An application that uses the web camera and the hand movements changing the snow direction in the page. ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,5 +32,16 @@
     "ex_img": "http://i.imgur.com/PPAWD4r.png",
     "ex_url": "http://ionicabizau.github.io/webcam-snow",
     "license_year": "2013\n"
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
